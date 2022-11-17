@@ -1,0 +1,22 @@
+/* This is how to use effects in flexbox */
+.container{
+    border: 5px solid#ffcc5c;
+    display: flex;
+    justify-content: space-evenly ;
+}
+
+
+/* these are different justify contents to use */
+/* 
+flex-start(default) 
+
+flex-end (moves everything to the right)
+
+center (moves everything to the center)
+
+space-around (puts spacing around left and right of each element evenly)
+
+space-between(puts equally spacing between each element but without far left or far right)
+
+space-evenly (evenly spaces every element)
+*/

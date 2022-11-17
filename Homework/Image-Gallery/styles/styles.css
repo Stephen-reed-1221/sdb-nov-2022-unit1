@@ -1,0 +1,71 @@
+/* adress the class and display grid to form a grid */
+.wrapper{display: grid;
+
+    /* how to space grids */
+   grid-gap: 1em;
+    
+   /* this is how you set up your grids in the order you like */
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "hero hero hero"
+    "smallimage1 smallimage2 smallimage3"
+    "smallimage4 smallimage5 smallimage6"
+    "footer footer footer";
+}
+
+/* different ways to style and align header */
+header {
+    grid-area: header;
+    background-color: orchid; border: 1px solid black;
+    text-align: center;
+}
+/* different ways to style nav bars */
+nav{
+    grid-area: nav;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1em;
+    font-size: 20px;
+}
+
+nav > a {text-decoration: none;}
+
+/* this is how to syle a class */
+.hero{
+    grid-area: hero;
+    text-align: center;
+}
+
+/* need to do this to adress template areas above */
+.smallimage1{
+    grid-area: smallimage1;
+    
+}
+
+.smallimage2{
+    grid-area:smallimage2;
+}
+
+.smallimage3{
+    grid-area:smallimage3;
+}
+
+.smallimage4{
+    grid-area:smallimage4;
+}
+
+.smallimage5{
+    grid-area:smallimage5;
+}
+
+.smallimage6{grid-area: smallimage6;}
+
+footer{
+    grid-area: footer;
+    background-color: yellowgreen;
+    border: 1px;
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+
+.container{
+    border: 5px solid#ffcc5c;
+    display: flex;
+}
+
+/* ! How to adjust size of elements by addressing container */
+/* .container > div{
+    flex: 1;
+} */
+
+/* ! how to adress individual element by specificially targeting one element */
+/* .container > .about{
+    flex: 2;
+} */
+
+/* .home{
+    flex: 1;
+}
+
+.logout{
+    flex: 1;
+} */
