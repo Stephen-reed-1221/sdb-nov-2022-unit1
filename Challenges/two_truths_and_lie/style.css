@@ -1,0 +1,15 @@
+h1{ color: lightgreen;
+text-align: center;}
+
+h3 { color: blue;}
+
+p{color: red;}
+
+div{border: 2px solid black}
+
+div{border-radius: 25px;}
+
+div {background-color: grey;}
+.one {background-color: lightgrey;}
+.one{text-align: center;}
+.center{margin-left:auto; margin-right: auto;}
